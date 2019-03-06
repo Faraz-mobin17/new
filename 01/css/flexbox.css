@@ -1,0 +1,75 @@
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+
+	font-size: 100%;
+	font-family: Arial, Helvetica, Georgia, sans-serif;
+	line-height: 1.6;
+	font-weight: normal;
+	font-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav {
+
+	height: 0%;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	opacity: .9;
+	overflow-y: hidden;  
+	background-color: #222;
+	
+}
+
+.overlay-content {
+	position: relative;
+	top: 15%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.sidenav a {
+
+	display: block;
+	color: #818181;
+	text-decoration: none;
+	padding: 8px 8px 8px 32px;
+	transition: 0.3s;
+	font-size: 2.125em;
+	text-align: center;
+	
+
+}
+
+.sidenav a:hover:not(.closebtn) ,.offcanvas a:focus {
+	color: #fff;
+	margin-left: 10px;
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn  {
+
+	
+	position: absolute;
+	right: 25px;
+	top: 0;
+	font-size: 3em;
+	margin-left: 50px;
+}
+
+#main {
+	padding: 15px;
+	transition: margin-left 0.5s;
+}
+

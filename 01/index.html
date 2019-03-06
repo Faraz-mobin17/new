@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="descreption" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="faraz">
+  <title>Responsive | Navbar</title>
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+<nav>
+	<div id="myNav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="#">Home</a>
+			<a href="#">Services</a>
+			<a href="#">Contact</a>
+			<a href="#">About</a>
+		</div>
+	</div>
+</nav>
+
+    <header>
+<span class="navbar" onclick="openNav()">&#9776;</span>
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading" class="top-head">Welcome to My Website | Learn to Code</h1>
+          <hr class="primary">
+          <p class="text-capitalize">dont just learn to code learn to create</p>
+          <a href="#about" class="btn bg-primary btn-xl animated fadeInDown">Find Out More</a>
+        </div>
+      </div>
+    </header>
+    <section class="bg-primary" id="about">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="container">
+            <h2 class="section-heading">We've got what you need</h2>
+            <hr class="light">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia et itaque dolores voluptas ullam, mollitia hic praesentium repellendus unde at ipsam quas laudantium, perferendis reprehenderit repudiandae nostrum voluptatibus, beatae. Doloribus.</p>
+            <a href="#service">
+            <button type="button" class="btn btn-default sr-btn animated fadeInDown">get started!</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <section id="service">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="section-heading text-center">At Your Service</h2>
+              <hr class="primary">
+            </div>
+          </div>
+          <div class="col-3 text-center">
+            <i class="fa fa-4x fa-diamond text-primary animated fadeInDown rounded" data-sr-id="2"></i>
+            <h3>Sturdy Template</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, maxime.</p>
+          </div>
+          <div class="col-3 text-center">
+            <i class="fa fa-4x fa-paper-plane text-primary animated fadeInDown" data-sr-id="3"></i>
+            <h3>Ready to Ship</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-3 text-center">
+            <i class="fa fa-4x fa-newspaper-o text-primary  animated fadeInDown" data-sr-id="4"></i>
+            <h3>Up to Date</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3 text-center">
+            <i class="fa fa-4x fa-heart text-primary  animated fadeInDown" data-sr-id="5"></i>
+            <h3>Made with Love</h3>
+            <p>You have to make your website with love these days</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <div class="row">
+<div class="col-4">
+  <img src="images/img1.jpeg" alt="" style="max-width: 100%;">
+</div>
+<div class="col-4">
+  <img src="images/img2.jpg" alt="" style="max-width: 100%;">
+</div>
+<div class="col-4">
+  <img src="images/img3.jpeg" alt="" style="max-width: 100%;">
+</div>
+</div> -->
+<div class="row">
+  <div class="img-grid">
+    <img src="images/img1.jpeg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+
+  <div class="img-grid">
+    <img src="images/img2.jpg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+
+  <div class="img-grid">
+    <img src="images/img3.jpeg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="img-grid">
+    <img src="images/img4.jpeg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+
+  <div class="img-grid">
+    <img src="images/img5.jpeg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+
+  <div class="img-grid">
+    <img src="images/img6.jpeg" alt="" class="img-responsive">
+    <div class="overlay">
+      <div class="text">Hello World!</div>
+    </div>
+  </div>
+
+  </div>
+  <footer class="main-footer">
+    <div class="container">
+      <p>Copyright (c) 2017 Copyright Holder All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
